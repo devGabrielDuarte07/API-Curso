@@ -124,4 +124,4 @@ C:\Users\gabriel\source\repos\API-Cursos\API-Cursos\obj\Debug\net10.0\API-Cursos
 C:\Users\gabriel\source\repos\API-Cursos\API-Cursos\obj\Debug\net10.0\API-Cursos.pdb
 C:\Users\gabriel\source\repos\API-Cursos\API-Cursos\obj\Debug\net10.0\API-Cursos.genruntimeconfig.cache
 C:\Users\gabriel\source\repos\API-Cursos\API-Cursos\obj\Debug\net10.0\ref\API-Cursos.dll
-C:\Users\gabriel\source\repos\API-Cursos\API-Cursos\obj\Debug\net10.0\staticwebassets.upToDateCheck.txt
+C:\Users\gabriel\source\repos\API-Cursos\API-Cursos\obj\Debug\net10.0\API-Cursos.sourcelink.json

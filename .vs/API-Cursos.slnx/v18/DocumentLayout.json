@@ -3,12 +3,12 @@
   "WorkspaceRootPath": "C:\\Users\\gabriel\\source\\repos\\API-Cursos\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{1DDEC93A-1A8F-4E1B-9181-A01B9C62F4D7}|API-Cursos\\API-Cursos.csproj|c:\\users\\gabriel\\source\\repos\\api-cursos\\api-cursos\\controllers\\cursoscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{1DDEC93A-1A8F-4E1B-9181-A01B9C62F4D7}|API-Cursos\\API-Cursos.csproj|solutionrelative:api-cursos\\controllers\\cursoscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{B7D48093-7CA7-B65C-7EED-F7B71141B689}|API-Cursos\\API-Cursos.csproj|c:\\users\\gabriel\\source\\repos\\api-cursos\\api-cursos\\controllers\\cursoscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B7D48093-7CA7-B65C-7EED-F7B71141B689}|API-Cursos\\API-Cursos.csproj|solutionrelative:api-cursos\\controllers\\cursoscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{1DDEC93A-1A8F-4E1B-9181-A01B9C62F4D7}|API-Cursos\\API-Cursos.csproj|c:\\users\\gabriel\\source\\repos\\api-cursos\\api-cursos\\services\\cursoservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{1DDEC93A-1A8F-4E1B-9181-A01B9C62F4D7}|API-Cursos\\API-Cursos.csproj|solutionrelative:api-cursos\\services\\cursoservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{B7D48093-7CA7-B65C-7EED-F7B71141B689}|API-Cursos\\API-Cursos.csproj|c:\\users\\gabriel\\source\\repos\\api-cursos\\api-cursos\\services\\cursoservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B7D48093-7CA7-B65C-7EED-F7B71141B689}|API-Cursos\\API-Cursos.csproj|solutionrelative:api-cursos\\services\\cursoservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -28,7 +28,7 @@
               "RelativeDocumentMoniker": "API-Cursos\\Controllers\\CursosController.cs",
               "ToolTip": "C:\\Users\\gabriel\\source\\repos\\API-Cursos\\API-Cursos\\Controllers\\CursosController.cs",
               "RelativeToolTip": "API-Cursos\\Controllers\\CursosController.cs",
-              "ViewState": "AgIAAEQAAAAAAAAAAAAIwFwAAAAVAAAAAAAAAA==",
+              "ViewState": "AgIAAEQAAAAAAAAAAAAwwFwAAAAVAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-05-08T14:29:57.938Z",
               "EditorCaption": ""
@@ -43,8 +43,7 @@
               "RelativeToolTip": "API-Cursos\\Services\\CursoService.cs",
               "ViewState": "AgIAAAwAAAAAAAAAAADgv3sAAAAiAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-08T13:23:51.974Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-05-08T13:23:51.974Z"
             }
           ]
         }
