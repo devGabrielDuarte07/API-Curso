@@ -1,0 +1,71 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>API-Cursos</name>
+    </assembly>
+    <members>
+        <member name="T:API_Cursos.Controllers.CursosController">
+            <summary>
+            Controller responsável pelo gerenciamento de cursos.
+            </summary>
+        </member>
+        <member name="M:API_Cursos.Controllers.CursosController.CriarCurso(API_Cursos.DTOs.Cursos.CursoRequest)">
+            <summary>
+            Cadastra um novo curso.
+            </summary>
+            <param name="dto">Dados do curso.</param>
+            <returns>Curso criado com sucesso.</returns>
+            <response code="201">Curso criado com sucesso.</response>
+            <response code="409">Já existe um curso com esse nome.</response>
+        </member>
+        <member name="M:API_Cursos.Controllers.CursosController.BuscarCurso">
+            <summary>
+            Lista todos os cursos ativos.
+            </summary>
+            <returns>Lista de cursos.</returns>
+            <response code="200">Cursos encontrados com sucesso.</response>
+        </member>
+        <member name="M:API_Cursos.Controllers.CursosController.BuscarCursoPeloId(System.Int32)">
+            <summary>
+            Busca um curso ativo pelo ID.
+            </summary>
+            <param name="idCurso">ID do curso.</param>
+            <returns>Curso encontrado.</returns>
+            <response code="200">Curso encontrado com sucesso.</response>
+            <response code="404">Curso não encontrado.</response>
+        </member>
+        <member name="M:API_Cursos.Controllers.CursosController.AtualizarCurso(System.Int32,API_Cursos.DTOs.Cursos.CursoRequest)">
+            <summary>
+            Atualiza um curso existente.
+            </summary>
+            <param name="idCurso">ID do curso.</param>
+            <param name="dto">Novos dados do curso.</param>
+            <returns>Curso atualizado.</returns>
+            <response code="200">Curso atualizado com sucesso.</response>
+            <response code="404">Curso não encontrado.</response>
+            <response code="409">Já existe um curso com esse nome.</response>
+        </member>
+        <member name="M:API_Cursos.Controllers.CursosController.DeletarCurso(System.Int32)">
+            <summary>
+            Realiza exclusão lógica de um curso.
+            </summary>
+            <param name="idCurso">ID do curso.</param>
+            <returns>Curso deletado.</returns>
+            <response code="204">Curso deletado com sucesso.</response>
+            <response code="404">Curso não encontrado.</response>
+        </member>
+        <member name="M:API_Cursos.Controllers.CursosController.BuscarCursoPeloPeriodo(API_Cursos.Enums.PeriodoCurso)">
+            <summary>
+            Retorna todos os períodos disponíveis.
+            </summary>
+            <returns>Lista de períodos.</returns>
+            <response code="200">Períodos encontrados com sucesso.</response>
+            <response code="404">Curso não encontrado.</response>
+        </member>
+        <member name="T:Program">
+            <summary>
+            Auto-generated public partial Program class for top-level statement apps.
+            </summary>
+        </member>
+    </members>
+</doc>

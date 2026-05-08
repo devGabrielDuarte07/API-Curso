@@ -1,0 +1,225 @@
+{
+  "openapi": "3.0.1",
+  "info": {
+    "title": "API Curso",
+    "description": "\r\nAPI para gerenciamento de cursos\r\n\r\n\r\nDesenvolvido por Gabriel Duarte\r\n",
+    "contact": {
+      "name": "Gabriel Duarte"
+    },
+    "version": "v1.0"
+  },
+  "paths": {
+    "/api/Cursos": {
+      "get": {
+        "tags": [
+          "Cursos"
+        ],
+        "summary": "Lista todos os cursos ativos.",
+        "responses": {
+          "200": {
+            "description": "Cursos encontrados com sucesso."
+          }
+        }
+      },
+      "post": {
+        "tags": [
+          "Cursos"
+        ],
+        "summary": "Cadastra um novo curso.",
+        "requestBody": {
+          "description": "Dados do curso.",
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/CursoRequest"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "$ref": "#/components/schemas/CursoRequest"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "$ref": "#/components/schemas/CursoRequest"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "Success"
+          },
+          "201": {
+            "description": "Curso criado com sucesso."
+          },
+          "409": {
+            "description": "Já existe um curso com esse nome."
+          }
+        }
+      }
+    },
+    "/api/Cursos/{idCurso}": {
+      "get": {
+        "tags": [
+          "Cursos"
+        ],
+        "summary": "Busca um curso ativo pelo ID.",
+        "parameters": [
+          {
+            "name": "idCurso",
+            "in": "path",
+            "description": "ID do curso.",
+            "required": true,
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Curso encontrado com sucesso."
+          },
+          "404": {
+            "description": "Curso não encontrado."
+          }
+        }
+      },
+      "put": {
+        "tags": [
+          "Cursos"
+        ],
+        "summary": "Atualiza um curso existente.",
+        "parameters": [
+          {
+            "name": "idCurso",
+            "in": "path",
+            "description": "ID do curso.",
+            "required": true,
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          }
+        ],
+        "requestBody": {
+          "description": "Novos dados do curso.",
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/CursoRequest"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "$ref": "#/components/schemas/CursoRequest"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "$ref": "#/components/schemas/CursoRequest"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "Curso atualizado com sucesso."
+          },
+          "404": {
+            "description": "Curso não encontrado."
+          },
+          "409": {
+            "description": "Já existe um curso com esse nome."
+          }
+        }
+      },
+      "delete": {
+        "tags": [
+          "Cursos"
+        ],
+        "summary": "Realiza exclusão lógica de um curso.",
+        "parameters": [
+          {
+            "name": "idCurso",
+            "in": "path",
+            "description": "ID do curso.",
+            "required": true,
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Success"
+          },
+          "204": {
+            "description": "Curso deletado com sucesso."
+          },
+          "404": {
+            "description": "Curso não encontrado."
+          }
+        }
+      }
+    },
+    "/api/Cursos/periodo": {
+      "get": {
+        "tags": [
+          "Cursos"
+        ],
+        "summary": "Retorna todos os períodos disponíveis.",
+        "parameters": [
+          {
+            "name": "periodo",
+            "in": "query",
+            "schema": {
+              "$ref": "#/components/schemas/PeriodoCurso"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Períodos encontrados com sucesso."
+          },
+          "404": {
+            "description": "Curso não encontrado."
+          }
+        }
+      }
+    }
+  },
+  "components": {
+    "schemas": {
+      "CursoRequest": {
+        "required": [
+          "nome",
+          "periodo"
+        ],
+        "type": "object",
+        "properties": {
+          "nome": {
+            "minLength": 3,
+            "type": "string",
+            "default": "Nome do curso"
+          },
+          "periodo": {
+            "$ref": "#/components/schemas/PeriodoCurso"
+          }
+        },
+        "additionalProperties": false
+      },
+      "PeriodoCurso": {
+        "enum": [
+          "MATUTINO",
+          "VESPERTINO",
+          "NOTURNO",
+          "INTEGRAL"
+        ],
+        "type": "string"
+      }
+    }
+  }
+}

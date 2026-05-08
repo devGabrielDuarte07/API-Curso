@@ -1,0 +1,97 @@
+[
+  {
+    "ContainingType": "API_Cursos.Controllers.CursosController",
+    "Method": "CriarCurso",
+    "RelativePath": "api/Cursos",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "dto",
+        "Type": "API_Cursos.DTOs.Cursos.CursoRequest",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "API_Cursos.Controllers.CursosController",
+    "Method": "BuscarCurso",
+    "RelativePath": "api/Cursos",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "API_Cursos.Controllers.CursosController",
+    "Method": "BuscarCursoPeloId",
+    "RelativePath": "api/Cursos/{idCurso}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "idCurso",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "API_Cursos.Controllers.CursosController",
+    "Method": "AtualizarCurso",
+    "RelativePath": "api/Cursos/{idCurso}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "idCurso",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "dto",
+        "Type": "API_Cursos.DTOs.Cursos.CursoRequest",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "API_Cursos.Controllers.CursosController",
+    "Method": "DeletarCurso",
+    "RelativePath": "api/Cursos/{idCurso}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "idCurso",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "API_Cursos.Controllers.CursosController",
+    "Method": "BuscarCursoPeloPeriodo",
+    "RelativePath": "api/Cursos/periodo",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "periodo",
+        "Type": "API_Cursos.Enums.PeriodoCurso",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  }
+]
