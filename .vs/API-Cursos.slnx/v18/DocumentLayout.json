@@ -1,14 +1,22 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\gabriel\\source\\repos\\API-Cursos\\",
+  "WorkspaceRootPath": "C:\\Users\\biel1\\OneDrive\\\u00C1rea de Trabalho\\API-Curso\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{B7D48093-7CA7-B65C-7EED-F7B71141B689}|API-Cursos\\API-Cursos.csproj|c:\\users\\gabriel\\source\\repos\\api-cursos\\api-cursos\\controllers\\cursoscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{B7D48093-7CA7-B65C-7EED-F7B71141B689}|API-Cursos\\API-Cursos.csproj|c:\\users\\biel1\\onedrive\\\u00E1rea de trabalho\\api-curso\\api-cursos\\controllers\\cursoscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{B7D48093-7CA7-B65C-7EED-F7B71141B689}|API-Cursos\\API-Cursos.csproj|solutionrelative:api-cursos\\controllers\\cursoscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{B7D48093-7CA7-B65C-7EED-F7B71141B689}|API-Cursos\\API-Cursos.csproj|c:\\users\\gabriel\\source\\repos\\api-cursos\\api-cursos\\services\\cursoservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{B7D48093-7CA7-B65C-7EED-F7B71141B689}|API-Cursos\\API-Cursos.csproj|c:\\users\\biel1\\onedrive\\\u00E1rea de trabalho\\api-curso\\api-cursos\\services\\cursoservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{B7D48093-7CA7-B65C-7EED-F7B71141B689}|API-Cursos\\API-Cursos.csproj|solutionrelative:api-cursos\\services\\cursoservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B7D48093-7CA7-B65C-7EED-F7B71141B689}|API-Cursos\\API-Cursos.csproj|c:\\users\\biel1\\onedrive\\\u00E1rea de trabalho\\api-curso\\api-cursos\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B7D48093-7CA7-B65C-7EED-F7B71141B689}|API-Cursos\\API-Cursos.csproj|solutionrelative:api-cursos\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B7D48093-7CA7-B65C-7EED-F7B71141B689}|API-Cursos\\API-Cursos.csproj|c:\\users\\biel1\\onedrive\\\u00E1rea de trabalho\\api-curso\\api-cursos\\dtos\\cursos\\pesquisacursorequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B7D48093-7CA7-B65C-7EED-F7B71141B689}|API-Cursos\\API-Cursos.csproj|solutionrelative:api-cursos\\dtos\\cursos\\pesquisacursorequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -18,17 +26,47 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 3,
           "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "PesquisaCursoRequest.cs",
+              "DocumentMoniker": "C:\\Users\\biel1\\OneDrive\\\u00C1rea de Trabalho\\API-Curso\\API-Cursos\\DTOs\\Cursos\\PesquisaCursoRequest.cs",
+              "RelativeDocumentMoniker": "API-Cursos\\DTOs\\Cursos\\PesquisaCursoRequest.cs",
+              "ToolTip": "C:\\Users\\biel1\\OneDrive\\\u00C1rea de Trabalho\\API-Curso\\API-Cursos\\DTOs\\Cursos\\PesquisaCursoRequest.cs",
+              "RelativeToolTip": "API-Cursos\\DTOs\\Cursos\\PesquisaCursoRequest.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAoAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-12T01:24:00.791Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\biel1\\OneDrive\\\u00C1rea de Trabalho\\API-Curso\\API-Cursos\\Program.cs",
+              "RelativeDocumentMoniker": "API-Cursos\\Program.cs",
+              "ToolTip": "C:\\Users\\biel1\\OneDrive\\\u00C1rea de Trabalho\\API-Curso\\API-Cursos\\Program.cs",
+              "RelativeToolTip": "API-Cursos\\Program.cs",
+              "ViewState": "AgIAAD0AAAAAAAAAAAAAAFoAAAAaAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-11T23:50:09.417Z",
+              "EditorCaption": ""
+            },
             {
               "$type": "Document",
               "DocumentIndex": 0,
               "Title": "CursosController.cs",
-              "DocumentMoniker": "C:\\Users\\gabriel\\source\\repos\\API-Cursos\\API-Cursos\\Controllers\\CursosController.cs",
+              "DocumentMoniker": "C:\\Users\\biel1\\OneDrive\\\u00C1rea de Trabalho\\API-Curso\\API-Cursos\\Controllers\\CursosController.cs",
               "RelativeDocumentMoniker": "API-Cursos\\Controllers\\CursosController.cs",
-              "ToolTip": "C:\\Users\\gabriel\\source\\repos\\API-Cursos\\API-Cursos\\Controllers\\CursosController.cs",
+              "ToolTip": "C:\\Users\\biel1\\OneDrive\\\u00C1rea de Trabalho\\API-Curso\\API-Cursos\\Controllers\\CursosController.cs",
               "RelativeToolTip": "API-Cursos\\Controllers\\CursosController.cs",
-              "ViewState": "AgIAAEQAAAAAAAAAAAAwwFwAAAAVAAAAAAAAAA==",
+              "ViewState": "AgIAAEoAAAAAAAAAAAAhwGIAAAADAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-05-08T14:29:57.938Z",
               "EditorCaption": ""
@@ -37,13 +75,14 @@
               "$type": "Document",
               "DocumentIndex": 1,
               "Title": "CursoService.cs",
-              "DocumentMoniker": "C:\\Users\\gabriel\\source\\repos\\API-Cursos\\API-Cursos\\Services\\CursoService.cs",
+              "DocumentMoniker": "C:\\Users\\biel1\\OneDrive\\\u00C1rea de Trabalho\\API-Curso\\API-Cursos\\Services\\CursoService.cs",
               "RelativeDocumentMoniker": "API-Cursos\\Services\\CursoService.cs",
-              "ToolTip": "C:\\Users\\gabriel\\source\\repos\\API-Cursos\\API-Cursos\\Services\\CursoService.cs",
+              "ToolTip": "C:\\Users\\biel1\\OneDrive\\\u00C1rea de Trabalho\\API-Curso\\API-Cursos\\Services\\CursoService.cs",
               "RelativeToolTip": "API-Cursos\\Services\\CursoService.cs",
-              "ViewState": "AgIAAAwAAAAAAAAAAADgv3sAAAAiAAAAAAAAAA==",
+              "ViewState": "AgIAAA8AAAAAAAAAAADgv1MAAAAeAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-08T13:23:51.974Z"
+              "WhenOpened": "2026-05-08T13:23:51.974Z",
+              "EditorCaption": ""
             }
           ]
         }

@@ -62,6 +62,18 @@
             <response code="200">Períodos encontrados com sucesso.</response>
             <response code="404">Curso não encontrado.</response>
         </member>
+        <member name="T:API_Cursos.Migrations.CriarTabelaCurso">
+            <inheritdoc />
+        </member>
+        <member name="M:API_Cursos.Migrations.CriarTabelaCurso.Up(Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder)">
+            <inheritdoc />
+        </member>
+        <member name="M:API_Cursos.Migrations.CriarTabelaCurso.Down(Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder)">
+            <inheritdoc />
+        </member>
+        <member name="M:API_Cursos.Migrations.CriarTabelaCurso.BuildTargetModel(Microsoft.EntityFrameworkCore.ModelBuilder)">
+            <inheritdoc />
+        </member>
         <member name="T:Program">
             <summary>
             Auto-generated public partial Program class for top-level statement apps.

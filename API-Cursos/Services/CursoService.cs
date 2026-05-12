@@ -45,6 +45,7 @@ namespace API_Cursos.Services
                 .Where(c => c.IsAtivo)
                 .Select(c => new CursoResponse
                 {
+                    Id = c.Id,
                     Nome = c.Nome,
                     Periodo = c.Periodo,
                 })
@@ -71,6 +72,23 @@ namespace API_Cursos.Services
 
 
             return ResultadoPadrao<CursoResponse>.Ok(curso);
+        }
+
+        public ResultadoPadrao<List<CursoResponse>> BuscarCursoPeloNome(string nome)
+        {
+            var nomeCurso = nome.Trim().ToUpper();
+
+            var cursos = _db.TabelaCursos.Where(c => c.Nome.ToUpper().Contains(nomeCurso) && c.IsAtivo).Select(a => new CursoResponse
+            {
+                Id = a.Id,
+                Nome = a.Nome,
+                Periodo = a.Periodo,
+            }).ToList();
+
+            if (cursos.Count == 0)
+                return ResultadoPadrao<List<CursoResponse>>.Falha("Nenhum curso com esse nome encontrado", 404);
+
+            return ResultadoPadrao<List<CursoResponse>>.Ok(cursos);
         }
 
         public ResultadoPadrao<object> AtualizarCurso(int idCurso, CursoRequest dto)

@@ -90,9 +90,15 @@ public class CursosController : BaseController
     /// <returns>Lista de períodos.</returns>
     /// <response code="200">Períodos encontrados com sucesso.</response>
     /// <response code="404">Curso não encontrado.</response>
-    [HttpGet("periodo")]
+    [HttpGet("periodo/{periodo}")]
     public IActionResult BuscarCursoPeloPeriodo(PeriodoCurso periodo)
     {
         return Resultado(_cursoService.BuscarCursoPeloPeriodo(periodo));
+    }
+
+    [HttpGet("nome/{nome}")]
+    public IActionResult BuscarCursoPeloNome(string nome)
+    {
+        return Resultado(_cursoService.BuscarCursoPeloNome(nome));
     }
 }

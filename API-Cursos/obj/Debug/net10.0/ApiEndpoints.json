@@ -80,8 +80,24 @@
   },
   {
     "ContainingType": "API_Cursos.Controllers.CursosController",
+    "Method": "BuscarCursoPeloNome",
+    "RelativePath": "api/Cursos/nome/{nome}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "nome",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "API_Cursos.Controllers.CursosController",
     "Method": "BuscarCursoPeloPeriodo",
-    "RelativePath": "api/Cursos/periodo",
+    "RelativePath": "api/Cursos/periodo/{periodo}",
     "HttpMethod": "GET",
     "IsController": true,
     "Order": 0,
@@ -89,7 +105,7 @@
       {
         "Name": "periodo",
         "Type": "API_Cursos.Enums.PeriodoCurso",
-        "IsRequired": false
+        "IsRequired": true
       }
     ],
     "ReturnTypes": []

@@ -18,6 +18,19 @@ builder.Services.AddControllers()
 // 🔹 Swagger + JWT
 builder.Services.AddEndpointsApiExplorer();
 
+// liberar pro front
+builder.Services.AddCors(options =>
+{
+    options.AddPolicy("AllowReact",
+        policy =>
+        {
+            policy
+                .WithOrigins("http://localhost:5173")
+                .AllowAnyHeader()
+                .AllowAnyMethod();
+        });
+});
+
 builder.Services.AddSwaggerGen(options =>
 {
     options.OrderActionsBy(apiDesc =>
@@ -75,7 +88,7 @@ var app = builder.Build();
 // 🔹 Swagger
 app.UseSwagger();
 app.UseSwaggerUI();
-
+app.UseCors("AllowReact");
 // arquivo
 app.UseStaticFiles();
 

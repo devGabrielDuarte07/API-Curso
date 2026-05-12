@@ -165,7 +165,7 @@
         }
       }
     },
-    "/api/Cursos/periodo": {
+    "/api/Cursos/periodo/{periodo}": {
       "get": {
         "tags": [
           "Cursos"
@@ -174,7 +174,8 @@
         "parameters": [
           {
             "name": "periodo",
-            "in": "query",
+            "in": "path",
+            "required": true,
             "schema": {
               "$ref": "#/components/schemas/PeriodoCurso"
             }
@@ -186,6 +187,28 @@
           },
           "404": {
             "description": "Curso não encontrado."
+          }
+        }
+      }
+    },
+    "/api/Cursos/nome/{nome}": {
+      "get": {
+        "tags": [
+          "Cursos"
+        ],
+        "parameters": [
+          {
+            "name": "nome",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Success"
           }
         }
       }
